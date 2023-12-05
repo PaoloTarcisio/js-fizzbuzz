@@ -20,7 +20,7 @@ img {
 
 .my-container {
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #073C4D;
 }
 
@@ -29,13 +29,19 @@ img {
     font-size: 5rem;
 }
 
-.card-container .col {
+.my-container .col {
     background-color: pink;
 }
 
-.card {
+.my-container .col .card {
     width: 80px;
     height: 80px;
+    background-color: yellow;
+}
+
+.card-container div {
+    margin: 10px;
+    border: 1px solid red;
 }
 
 
