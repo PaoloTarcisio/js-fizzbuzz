@@ -13,3 +13,29 @@ img {
     width: 100%;
     display: block;
 }
+
+/* 
+    GENERAL
+*/
+
+.my-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #073C4D;
+}
+
+.my-container h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.card-container .col {
+    background-color: pink;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+}
+
+
